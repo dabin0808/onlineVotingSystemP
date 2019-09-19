@@ -1,0 +1,66 @@
+.home-content a.content_main_block {
+    width: 100%;
+    display: block;
+    font-size: 22px;
+    height: 150px;
+    line-height: 150px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.home-content a.content_main_block:hover {
+    color: pink;
+    font-size: 30px;
+}
+
+
+.participateVote-content-left .col-md-4 a, .viewVote-content-left .col-md-4 a {
+    text-decoration: none;
+}
+.participateVote-content-left .col-md-4 a img, .viewVote-content-left .col-md-4 a img {
+    width: 100%;
+    height: 100px;
+}
+.participateVote-content-left .col-md-4 a li,
+.participateVote-content-left .col-md-4 a h4,
+.viewVote-content-left .col-md-4 a li,
+.viewVote-content-left .col-md-4 a h4
+{
+    overflow: hidden;       /*内容超出后隐藏*/
+    -ms-text-overflow: ellipsis;
+    text-overflow: ellipsis;        /*超出内容显示为省略号*/
+    white-space: nowrap;        /*文本不进行换行*/
+}
+.participateVote-content-right, .viewVote-content-right {
+    border: 1px solid #2e9057;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+.participateVote-content-right h3, .viewVote-content-right h3 {
+    text-align: center;
+    border-bottom: 3px dotted #2e9057;
+    padding-bottom: 8px;
+}
+
+
+.userInfo-content {
+    margin-top: 10px;
+}
+.userInfo-content a {
+    text-decoration: none;
+    display: block;
+    background: #286a46;
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    font-size: 20px;
+    text-align: center;
+    margin: 10px 0;
+    color: #fff;
+}
+.userInfo-content a:hover {
+    color: pink;
+    font-size: 28px;
+}

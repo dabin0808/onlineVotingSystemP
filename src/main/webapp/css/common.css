@@ -1,0 +1,81 @@
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: '微软雅黑';
+    font-size: 14px;
+}
+
+fieldset, img, input, button {
+    border: none;
+    padding: 0;
+    margin: 0;
+    outline-style: none;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+.clearfix:before, .clearfix:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+.clearfix {
+    *zoom: 1;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 100%;
+}
+
+.header {
+    height: 45px;
+    line-height: 45px;
+    width: 100%;
+    background: #286a46;
+    color: #fff;
+}
+.header .header-logo {
+    float: left;
+    font-size: 22px;
+    font-family: Consolas;
+}
+.header .header-options {
+    float: left;
+    margin-left: 20px;
+}
+.header .header-options ul li {
+    float: left;
+    padding: 0 10px;
+    display: inline-block;
+    font-size: 16px;
+    color: #fff;
+}
+.header .header-options ul li:hover {
+    background: #2e9057;
+}
+.header .header-options ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+.header .login_out, .header .login_in {
+    float: right;
+}
+.header .login_out a,.header .login_in a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 0 5px;
+}
+.header .login_out a:hover, .header .login_in a:hover {
+    color: pink;
+}
+.options-active {
+    background: #2e9057;
+}
+
+
